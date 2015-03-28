@@ -1,0 +1,32 @@
+
+.btn-circle {
+  width: 200px;
+  height: 200px;
+  line-height: 40px; /* adjust line height to align vertically*/
+  padding:0;
+background-color: #49C8D6;
+  border-radius: 50%;
+  border: 2px solid;
+
+}
+
+.title_overlay {
+top: 100px;
+position: absolute;
+z-index: 100;
+width: 100%;
+
+}
+.master_title {
+font-size: 80px;
+color: white;
+text-align: center;
+position: relative;
+}
+
+.try_now {
+position: relative;
+margin: 20% auto;
+font-size: 40px;
+color: white;
+}
