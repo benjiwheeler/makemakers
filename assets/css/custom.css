@@ -192,9 +192,15 @@ body {
 }
 
 #youtube_embed {
-position: fixed; z-index: -99; width: 100%;
-height: 150%;
 top: -200px;
+position: fixed; 
+z-index: -99; 
+width: 100%;
+height: 150%;
+}
+
+#youtube {
+
 }
 
 #youtube_main {
