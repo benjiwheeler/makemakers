@@ -11,7 +11,6 @@
 .jumbotron { margin-bottom: 0; padding: 0; }
 .jumbotron h1 { color: #000; font-weight: bold; letter-spacing: -1px; }
 
-.container { width: 920px; }
 header .container { padding: 40px 260px 50px 60px; }
 footer .container { padding: 40px 60px 50px 60px; }
 section .container { padding: 50px 260px 60px 60px; }

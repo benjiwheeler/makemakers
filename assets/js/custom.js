@@ -31,8 +31,6 @@ $(document).ready(function() {
   };
   var submitToParse = function() {
     $("#form_before").fadeOut(1000, function() {
-$('#myModal').modal()                      // initialized with defaults
-$('#myModal').modal({ keyboard: false })   // initialized with no keyboard
 $('#myModal').modal('show')  
 //      $("#myModal").toggle();
     });
