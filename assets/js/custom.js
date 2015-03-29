@@ -29,7 +29,7 @@ $(document).ready(function() {
       signupSuccess();
     });				 
   };
-  var submitToParse = function() {
+  var signupSuccess = function() {
     $("#form_before").fadeOut(1000, function() {
 $('#myModal').modal('show')  
 //      $("#myModal").toggle();
