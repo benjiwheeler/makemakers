@@ -1,4 +1,6 @@
 
+
+
 .btn-circle {
   width: 200px;
   height: 200px;
@@ -6,7 +8,13 @@
   padding:0;
 background-color: #49C8D6;
   border-radius: 50%;
-  border: 2px solid;
+opacity: 0.8;
+
+  border-width: 4px;
+    border-style: solid;
+    border-color: #99ff99;
+
+    box-shadow: 0px 0px 60px #9999ff;
 
 }
 
@@ -18,21 +26,67 @@ width: 100%;
 
 }
 .master_title {
-font-size: 80px;
-color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 90px;
+color: #FCB900;
 position: relative;
+font-weight: 700;
+line-height: 75px;
 }
 
 .master_subtitle {
+font-family: 'Open Sans', sans-serif;
 font-size: 30px;
-color: white;
+color: #D992FC;
+font-weight: 300;
 }
 
 .try_now {
 position: relative;
 margin: 20% auto;
 font-size: 40px;
-color: white;
+color: #B8FFB5;
+
+-ms-transform:rotate(-20deg); /* IE 9 */
+-moz-transform:rotate(-20deg); /* Firefox */
+-webkit-transform:rotate(-20deg); /* Safari and Chrome */
+-o-transform:rotate(-20deg); /* Opera */
+
+
+}
+
+.bg-1 {
+  background-color: #FFF957;
+}
+.bg-2 {
+  background-color: #97CAFC;
+}
+.bg-3 {
+  background-color: #97FCB5;
+}
+.bg-4 {
+  background-color: #FC97F5;
+}
+.bg-5 {
+  background-color: #FFBD42;
+}
+.bg-6 {
+  background-color: #FFB4B0;
+}
+
+#start {
+}
+
+.content_block {
+padding: 1px 20px 10px;
+margin: 15px 5px;
+font-size: 18px;
+}
+.content_title {
+margin-bottom: 25px;
+}
+.content_block p {
+font-size: 18px;
 }
 
 #signup_button {
@@ -62,3 +116,32 @@ width: 100%;
 text-align: center;
 opacity: 0.0;
 }
+
+.main {
+width: 100%
+padding: 0;
+margin: 0;
+}
+.container {
+padding: 15px 0;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
