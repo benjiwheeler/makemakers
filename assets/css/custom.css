@@ -20,8 +20,12 @@ width: 100%;
 .master_title {
 font-size: 80px;
 color: white;
-text-align: center;
 position: relative;
+}
+
+.master_subtitle {
+font-size: 30px;
+color: white;
 }
 
 .try_now {
@@ -29,4 +33,32 @@ position: relative;
 margin: 20% auto;
 font-size: 40px;
 color: white;
+}
+
+#signup_button {
+  font-size: 30px;
+  height: 60px;
+}
+#signup_email {
+  font-size: 30px;
+  height: 60px;
+}
+
+#form_section {
+position: relative;
+height: 80px;
+}
+#form_before {
+height: 80px;
+}
+
+.form-control {
+width: 100%;
+}
+
+#form_after {
+  z-index: 0;
+ position: relative;
+text-align: center;
+opacity: 0.0;
 }
