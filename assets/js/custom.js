@@ -44,6 +44,11 @@ $('#try').on('click', function() {
 
 });
 
+$('#buy_button').on('click', function() {
+   window.location.href="buy.html";
+
+});
+
 //var mp = $('#youtube')[0];
 //mp.setVolume(0);
 

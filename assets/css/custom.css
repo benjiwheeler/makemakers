@@ -71,6 +71,20 @@ color: #B8FFB5;
 
 }
 
+.buy_button {
+position: relative;
+margin: 20% auto;
+font-size: 40px;
+color: #B8FFB5;
+
+-ms-transform:rotate(-20deg); /* IE 9 */
+-moz-transform:rotate(-20deg); /* Firefox */
+-webkit-transform:rotate(-20deg); /* Safari and Chrome */
+-o-transform:rotate(-20deg); /* Opera */
+
+
+}
+
 .bg-1 {
   background-color: #FFF957;
 }
